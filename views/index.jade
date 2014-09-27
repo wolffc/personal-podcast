@@ -1,0 +1,11 @@
+doctype html
+html
+	head
+		title Overview of all your Podcasts Feeds
+		body
+			div(id="page")
+				h1 Overview of all your Podcasts Feeds
+				ul(id="feeds")
+					each item,slug in feeds
+						li
+							a(href=feedURL+slug)= item.title

@@ -1,0 +1,17 @@
+doctype xml
+rss(rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd")
+	channel
+		title= meta.title
+		link= meta.url
+		description= meta.description
+		lastBuildDate= meta.time
+		updated=meta.time
+		itunes:summary= meta.description
+
+		each item in items
+			item
+				titel= item.title
+				link= serverURL+"file/"+slug+"/" +item.file
+				guid=item.id
+				description= item.description
+				encosure(url=(serverURL+"file/"+slug+"/"+item.file) length=item.size type=item.type)
