@@ -10,14 +10,14 @@
 		"audio": {
 			"title": "My Personal Audio Podcast",
 			"description": "Audio Material found on the web",
-			"src": "/Users/chris/podcast-media/audio/",
-			"image": "/Users/chris/podcast-media/image.jpg"
+			"src": "/podcast-media/audio/",
+			"image": "/podcast-media/image.jpg"
 		},
 		"video": {
 			"title": "My Personal Video Podcast",
 			"description": "Video Material found on the web",
-			"src": "/Users/chris/podcast-media/video/",
-			"image": "/Users/chris/podcast-media/video.jpg"
+			"src": "/podcast-media/video/",
+			"image": "/podcast-media/video.jpg"
 		}
 	}
 }
